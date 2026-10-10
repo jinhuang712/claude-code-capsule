@@ -1,0 +1,19 @@
+{
+  "name": "capsule",
+  "description": "Move a Claude Code session to another machine: /capsule:ship packs one session (transcript, subagents, tool outputs, checkpoints, scratchpad, prompt history) into a zip; /capsule:land restores it under any folder, remaps every path, and prints the resume command.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jin Huang"
+  },
+  "license": "MIT",
+  "keywords": [
+    "session",
+    "resume",
+    "transfer",
+    "export",
+    "import",
+    "migrate"
+  ],
+  "homepage": "https://github.com/jinhuang712/claude-code-capsule",
+  "repository": "https://github.com/jinhuang712/claude-code-capsule"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "claude-code-capsule",
+  "owner": {
+    "name": "Jin Huang"
+  },
+  "metadata": {
+    "description": "Move a Claude Code session to another machine",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "capsule",
+      "source": "./",
+      "description": "Session capsules: /capsule:ship and /capsule:land",
+      "category": "productivity",
+      "tags": [
+        "session",
+        "resume",
+        "transfer"
+      ]
+    }
+  ]
+}
